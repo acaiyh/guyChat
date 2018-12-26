@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/guychat?characterEncoding=utf8&useSSL=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    maxActive: 20
+    initialSize: 1
+    maxWait: 6000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    testWhileIdle: false
+    testOnBorrow: false
+    testOnReturn: false
+    validationQuery: SELECT 1
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+
+mybatis:
+  typeAliasesPackage: com.boot.dao
+  mapper-locations: classpath:mapper/*.xml
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+server:
+  port: 8081
