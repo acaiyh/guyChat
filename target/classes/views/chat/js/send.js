@@ -6,9 +6,9 @@ $(function () {
 
 var guyId = Math.floor(Math.random() * 100000);
 
-var socket = io.connect("http://localhost:9092");
+var socket = io.connect("http://localhost:9092?guyId=123");
 
-socket.on('connect',function () {
+socket.on('connect',{guy:guyId},function () {
     output('Guy ' + guyId + ' has connected to the server!');
 });
 

@@ -2,105 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89578261-6307-44ae-be28-f83a236808ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/configure/CommonConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/controller/MsgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/model/ChatObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/model/common/ActionResultDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/model/common/ResultDataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/socketThread/ChatTeread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/util/CommonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/util/RedisKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boot/util/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/prop/dev/global.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/prop/test/global.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/css/reset.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/attachment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/bo-jackson.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/drake.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/louis-ck.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/michael-jordan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/name-type.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/send.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/smiley.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/img/thomas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/js/send.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/js/socket.io/socket.io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/ack-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/binary-event-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/event-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/js/socket.io/socket.io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/namespace-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/client/ssl-event-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/loaders.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/img/Starry.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/img/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/img/lock_icon_copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/img/puff.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/img/tick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/img/user_icon_copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/Particleground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/Treatment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/jquery.mockjax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/stopExecutionOnTimeout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/laydate/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/laydate/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/js/jquery.cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boot/socketThread/ChatTeread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boot/socketThread/ChatTeread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/chat/js/send.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/chat/js/send.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/socketThread/ChatTeread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/socketThread/ChatTeread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/socketThread/ChatTeread$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/socketThread/ChatTeread$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/boot/socketThread/ChatTeread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/boot/socketThread/ChatTeread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/chat/js/send.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/views/chat/js/send.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,38 +24,48 @@
     <session id="-151315283">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="html" value="2" />
+          <entry key="java" value="4" />
+          <entry key="js" value="4" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="4" />
+          <entry key="JavaScript" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="html" value="379" />
+          <entry key="java" value="696" />
+          <entry key="js" value="863" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="HTML" value="379" />
+          <entry key="JAVA" value="696" />
+          <entry key="JavaScript" value="863" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -154,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="236">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -166,8 +99,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/socketThread/ChatTeread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="67" column="105" selection-start-line="67" selection-start-column="105" selection-end-line="67" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/chat/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/chat/js/send.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="49" column="66" lean-forward="true" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -182,6 +142,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/boot/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boot/socketThread/ChatTeread.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/chat/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/chat/js/send.js" />
       </list>
     </option>
   </component>
@@ -209,7 +173,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="329" />
     <option name="y" value="17" />
     <option name="width" value="1400" />
@@ -220,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,19 +218,82 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="guyChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guyChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guyChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guyChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guyChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guyChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="socketThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guyChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guyChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guyChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guyChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guyChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guyChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guyChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guyChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545792924982" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545903554834" />
+    <property name="last_opened_file_path" value="D:/workspace/licaitong-parent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -275,6 +303,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\self-workspace\guyChat\src\main\webapp\views\js" />
       <recent name="D:\self-workspace\guyChat" />
     </key>
   </component>
@@ -320,48 +349,94 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545792236016</updated>
-      <workItem from="1545792237432" duration="607000" />
+      <workItem from="1545792237432" duration="11018000" />
+      <workItem from="1545875024759" duration="11665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="607000" />
+    <option name="totallyTimeSpent" value="22683000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.21351932" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25375536" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Spring" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.39425287" />
+      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.2321839" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32988507" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.21351932" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25375536" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Spring" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.39425287" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.48505747" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32988507" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.21351932" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -370,6 +445,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -377,26 +459,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/socketThread/ChatTeread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="236">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/MainApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="202">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boot/socketThread/ChatTeread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="67" column="105" selection-start-line="67" selection-start-column="105" selection-end-line="67" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/client/js/socket.io/socket.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15306" selection-start-column="15306" selection-end-column="15306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/chat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/chat/js/send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="49" column="66" lean-forward="true" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>guyChat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
