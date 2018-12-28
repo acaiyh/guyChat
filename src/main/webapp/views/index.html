@@ -222,7 +222,7 @@
                                         $('.success').html('登录成功，正在进入尬聊间...');
                                         setTimeout(function(){
                                             //add user information to cookie
-											$.cookie('username',username,{ expires: 1, path: '/' });
+											$.cookie('info',id+":"+username,{ expires: 1, path: '/' });
                                             //跳转操作
                                             document.location.href = '/views/chat/index.html';
                                         }, 1000);

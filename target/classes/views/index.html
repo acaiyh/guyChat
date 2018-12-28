@@ -79,6 +79,7 @@
     <script type="text/javascript" src="js/Particleground.js"></script>
     <script type="text/javascript" src="js/Treatment.js"></script>
     <script type="text/javascript" src="js/jquery.mockjax.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
 	<script type="text/javascript">
 		var canGetCookie = 0;//是否支持存储Cookie 0 不支持 1 支持
 		var ajaxmockjax = 1;//是否启用虚拟Ajax的请求响 0 不启用  1 启用
@@ -192,6 +193,12 @@
 						},
 						function (data) {
 	                    	if(data != null){
+                                /*var city = data.city;
+                                var gender = data.gender;
+                                var headImage = data.headImage;*/
+                                var id = data.data.id;
+                                var token = data.data.token;
+                                var username = data.data.username;
                                 //ajax返回 .认证完成
                                 setTimeout(function () {
                                     $('.authent').show().animate({ right: 90 }, {
@@ -214,6 +221,8 @@
                                         $('.success').fadeIn(1000);
                                         $('.success').html('登录成功，正在进入尬聊间...');
                                         setTimeout(function(){
+                                            //add user information to cookie
+											$.cookie('info',id+":"+username,{ expires: 1, path: '/' });
                                             //跳转操作
                                             document.location.href = '/views/chat/index.html';
                                         }, 1000);

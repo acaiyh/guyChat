@@ -10,6 +10,7 @@ public class ChatObject extends User{
 
     private String userName;
     private String message;
+    private Long toUserId;
 
     public ChatObject() {
     }
@@ -33,5 +34,13 @@ public class ChatObject extends User{
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public Long getToUserId() {
+        return toUserId;
+    }
+
+    public void setToUserId(Long toUserId) {
+        this.toUserId = toUserId;
     }
 }

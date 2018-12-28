@@ -26,7 +26,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping(value = "/login")
-public class LoginController {
+public class    LoginController {
 
     @Autowired
     LoginService loginService;

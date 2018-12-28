@@ -11,10 +11,7 @@
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/socket.io/socket.io.js"></script>
     <script src="js/moment.min.js"></script>
-    <script type="text/javascript" src="../layui/layui.js"></script>
-    <script type="text/javascript" src="../js/Particleground.js"></script>
-    <script type="text/javascript" src="../js/jquery.mockjax.js"></script>
-    <script src="js/send.js"></script>
+    <script type="text/javascript" src="../js/jquery.cookie.js"></script>
 </head>
 <body>
 
@@ -26,6 +23,12 @@
                 <a href="javascript:;" class="search"></a>
             </div>
             <ul class="people">
+                <li class="person" data-chat="person1">
+                    <img src="img/thomas.jpg" alt="" />
+                    <span class="name">Stephen</span>
+                    <span class="time">00:00 PM</span>
+                    <span class="preview">I am solitude...</span>
+                </li>
                 <li class="person" data-chat="person2">
                     <img src="img/thomas.jpg" alt="" />
                     <span class="name">Guys talking</span>
@@ -36,6 +39,14 @@
         </div>
         <div class="right">
             <div class="top"><span>To: <span class="name">guys group</span></span></div>
+            <div class="chat" data-chat="person1">
+                <div class="conversation-start">
+                    <span>Today</span>
+                </div>
+                <div class="bubble you">
+                    Hello, How are you today? Guy.
+                </div>
+            </div>
             <div class="chat" data-chat="person2">
                 <div class="conversation-start">
                     <span>Today</span>
@@ -59,6 +70,7 @@
 </div>
 </body>
 <script src="js/index.js"></script>
+<script src="js/send.js"></script>
 <script>
     //粒子背景特效
     /*$('body').particleground({

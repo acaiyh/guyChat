@@ -20,6 +20,8 @@ friends.all.forEach(function (f) {
 });
 
 function setAciveChat(f) {
+  var data_chat = f.getAttribute('data-chat');
+  window.to_guy = data_chat.substring(6,data_chat.length);
   friends.list.querySelector('.active').classList.remove('active');
   f.classList.add('active');
   chat.current = chat.container.querySelector('.active-chat');
