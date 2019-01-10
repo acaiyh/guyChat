@@ -17,7 +17,7 @@ if(username == null || username == ''){
     username = 'one guy';
 }
 
-var socket = io.connect("http://localhost:9092?guyId=123");
+var socket = io.connect("http://39.96.10.124:9092");
 
 socket.on('connect',function () {
     var div_person =  '<li class="person" data-chat="person'+ id + '">\n' +
@@ -65,6 +65,7 @@ function sendMessage() {
     }
     var jsonObject = {userName: username,
                       message: message,
+                      id:id,
                       toUserId:window.to_guy};
     socket.emit('chatevent',jsonObject);
 }

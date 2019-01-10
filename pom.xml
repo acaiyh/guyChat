@@ -122,9 +122,6 @@
         </profile>
         <profile>
             <id>test</id>
-             <!--<activation>
-                <activeByDefault>true</activeByDefault>
-             </activation>-->
             <properties>
                 <param>test</param>
             </properties>
